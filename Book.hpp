@@ -10,8 +10,8 @@ class Book {
   bool flag;
   public:
   Book();
-  Book(string title, string author, int pagec);
-  Book(string title, string author, int pagec, bool flag);
+  Book(string title, string author, int pagec); //constructor if there is no boolean
+  Book(string title, string author, int pagec, bool flag); //constructor if there is boolean
   void setTitle(string t);
   string getTitle();
   void setAuthor(string a);

@@ -3,19 +3,19 @@
 #include <iostream>
 using namespace std;
 
-Book::Book() { 
+Book::Book() { //initializes all values
   flag = false;
   pagecount=0;
   author = "";
   title = "";
 }
-Book::Book(string t, string a, int p, bool f){
-  flag = f;
+Book::Book(string t, string a, int p, bool f){ //constructor if there is boolean
+  flag = f; 
   pagecount=p;
   author = a;
   title = t;
 }
-Book::Book(string t, string a, int p){
+Book::Book(string t, string a, int p){ //constructor if there is no boolean
   flag = false;
   pagecount=p;
   author = a;
