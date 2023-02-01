@@ -12,8 +12,8 @@ class Book {
   Book();
   Book(string title, string author, int pagec); //constructor if there is no boolean
   Book(string title, string author, int pagec, bool flag); //constructor if there is boolean
-  void setTitle(string t);
-  string getTitle();
+  void setName(string t);
+  string getName();
   void setAuthor(string a);
   string getAuthor();  
   void setPageCount(int pc);
